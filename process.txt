@@ -20,7 +20,11 @@
 3. 터미널을 requirements.txt파일이 있는 위치로 이동시키고 requirements.txt에 있는 모듈을 설치하세요.
     'pip install -r requirements.txt' 명령어 수행
 4. 모듈이 잘 받아졌나 확인해봅니다.
-    'pip list' 명령어 수행
+    'pip list' 명령어 수행 
+5. LLM_GPTALL_01 프로젝트 안에 'model'폴더를 만들어 줍니다.
+6. https://www.nomic.ai/gpt4all 공식 링크를 통해 gpt4all를 본인 운영체제에 맞게 
+     'model' 폴더에 받아줍니다.
+7. 
 
 # 예상되는 문제와 해결법
 1. 만약 가상환경이 2개가 실행된다면 anaconda도 실행중일 확률이 높음
