@@ -10,6 +10,18 @@
 # 선행조건
 1. 로컬에 git을 통해 본 프로젝트를 이미 clone 받은 상태여야함.
 
-# 예상되는 문제
+# 절차 (순서대로 따라하세요.)
+1. 터미널을 LLM_GPTALL_01 프로젝트 안으로 이동해서 가상환경을 생성하세요.
+    'python -m venv gptall_env' 명령어를 수행 (반드시 가상 환경 이름이 gptall_env일 필요는 없습니다.)
+2. 가상환경을 활성화하세요. 운영체제에 따라, 터미널에 따라 명령어는 달라집니다.
+    mac의 경우 'source gptall_env/bin/activate', 
+    windows의 bash 터미널의 경우 'source gptall_env/Scripts/activate',
+    windows의 CMD터미널의 경우 'gptall_env\Scripts\activate'
+3. 터미널을 requirements.txt파일이 있는 위치로 이동시키고 requirements.txt에 있는 모듈을 설치하세요.
+    'pip install -r requirements.txt' 명령어 수행
+4. 모듈이 잘 받아졌나 확인해봅니다.
+    'pip list' 명령어 수행
+
+# 예상되는 문제와 해결법
 1. 만약 가상환경이 2개가 실행된다면 anaconda도 실행중일 확률이 높음
     'conda deactivate' 명령어 수행시 anaconda에서 활성화 되어있는 가상환경은 비활성화됨
