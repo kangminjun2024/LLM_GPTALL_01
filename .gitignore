@@ -24,6 +24,9 @@ media
 # C extensions
 *.so
 
+# AI model
+model/
+
 # Distribution / packaging
 .Python
 build/
